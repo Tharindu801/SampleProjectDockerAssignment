@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    # This uses an official GitHub Action to clone repo into the VM so the workflow has access 
+    #to project files.
     - name: Checkout code
       uses: actions/checkout@v4
 
